@@ -1,5 +1,5 @@
 :root{
-    --background: #101114;
+    --background: #d5f3d8;
     --primary-color: #1D1D20;
     --secondary-color: #4A4D57;
     --accent-color: #00FFC4;
@@ -12,12 +12,12 @@
 html{
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16pt;
-    color: #f9f9f9;
+    color: #FFFFFF;
 }
 body{
     min-height: 100vh;
     padding: 10px;
-    background-color: #101114;
+    background-color: #f2c7c7;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +29,7 @@ h1{
     font-weight: 800;
     text-transform: uppercase;
     text-align: center;
-    color: #00ffc4;
+    color: #dca1a1;
 }
 .wrapper{
     width: 700px;
@@ -44,10 +44,10 @@ h1{
     width: 100%;
     background: none;
     border: 2px solid;
-    color :#4a4d57;
+    color :#FFb7c5;
     border-radius: 1000px;
     font: inherit;
-    color: #f9f9f9;
+    color: #d5f3d8;
     caret-color: #00ffc4;
 }
 #todo-input:focus{
@@ -61,20 +61,20 @@ form{
     top: 0;
     right: 0;
 
-    background-color: #00ffc4;
+    background-color: black;
     height: 100%;
     padding: 0 30px;
     border: none;
     border-radius: 1000px;
     font: inherit;
     font-weight: 600;
-    color: #101114;
+    color: #ffb7c5;
     cursor: pointer;
 }
 .todo{
     margin-bottom: 10px;
     padding: 0 16px;
-    background-color: #1d1d20;
+    background-color: #d5f3d8;
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -84,6 +84,7 @@ form{
     padding-right: 0;
     flex-grow: 1;
     transition: 200ms ease;
+    color: lightcoral;
 }
 .delete-button{
     padding: 3px;
@@ -103,7 +104,7 @@ form{
 }
 .custom-checkbox{
     border: 2px solid;
-    color:#00ffc4;
+    color: #ffb7c5;;
     border-radius: 50%;
     min-height: 20px;
     min-width: 20px;
